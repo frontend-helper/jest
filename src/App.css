@@ -1,0 +1,25 @@
+.list {
+  margin: 50px auto;
+  padding: 0;
+  list-style: decimal-leading-zero;
+  list-style-position: inside;
+  max-width: 35%;
+}
+
+.list li {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #cfcffc;
+  position: relative;
+}
+
+.list li span {
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.list li:last-of-type {
+  margin-bottom: 0;
+}
